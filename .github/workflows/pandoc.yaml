@@ -3,7 +3,6 @@ on: workflow_dispatch
 jobs:
   convert_via_pandoc:
     name: "Build Pull Request PDFs"
-    needs: prepare
     runs-on: ubuntu-22.04
     steps:
       - uses: actions/checkout@v4
