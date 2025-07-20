@@ -13,7 +13,7 @@ jobs:
             -f gfm
             -t pdf
             -s
-            --file-scope=true
+            --file-scope=false
             --output=output.pdf
             markdown1.md markdown2.md markdown3.md
       - uses: actions/upload-artifact@v4
