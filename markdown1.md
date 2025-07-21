@@ -2,6 +2,6 @@
 title: markdown one
 ---
 
-# Heading One
+## Heading One
 
 One.

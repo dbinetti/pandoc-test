@@ -2,6 +2,6 @@
 title: markdown three
 ---
 
-# Heading Three
+## Heading Three
 
 Three.
