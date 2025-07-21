@@ -1,5 +1,5 @@
 name: Pandoc
-on: workflow_dispatch
+on: [push]
 jobs:
   convert_via_pandoc:
     name: "Build PDF from Markdown"
@@ -13,7 +13,7 @@ jobs:
             -f markdown
             -t pdf
             -s
-            --file-scope=false
+            --file-scope=true
             --top-level-division=chapter
             --output=output.pdf
             markdown1.md markdown2.md markdown3.md
