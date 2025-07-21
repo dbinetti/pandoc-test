@@ -10,7 +10,7 @@ jobs:
         uses: docker://pandoc/latex:3.7.0.2
         with:
           args: >-
-            -f gfm
+            -f markdown
             -t pdf
             -s
             --file-scope=false
